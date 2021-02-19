@@ -20,6 +20,8 @@ import {
   Col
 } from "reactstrap";
 
+import { Link } from "react-router-dom";
+
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import Header from "components/Headers/Header.js";
 import Footer from "components/Footers/Footer.js";
@@ -125,14 +127,7 @@ function ProfilePage() {
 				  Hibernate, Docker, Kubernetes. I have been highlighted as Arctic Code Vault Contributor by Github 's 2020 year.
                 </h5>
                 <br />
-                <Button
-                  className="btn-round"
-                  color="info"
-                  href="#pablo"
-                  onClick={e => e.preventDefault()}
-                >
-                  Downalod My resume
-                </Button>
+				<Link  className="btn-round" to="/files/resume.pdf" target="_blank" download>Downalod My resume</Link>
               </Col>
             </Row>
             <br />
