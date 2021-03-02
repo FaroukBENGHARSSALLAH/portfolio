@@ -76,7 +76,7 @@ function ProfilePage() {
                   target="_blank"
                 >
                   Quod
-                </a> Founder & CTO. Quod is a plateform wich provide data about worldwide stock data.
+                </a> Founder & CTO. Quod is a plateform which provides data about worldwide stock data.
               </p>
               <br />
 			    <p>
@@ -94,7 +94,7 @@ function ProfilePage() {
                   target="_blank"
                 >
                   Fiscus
-                </a> Founder & CTO. Fiscus is a multi category ETFs comparain tool.
+                </a> Founder & CTO. Fiscus is a multi category ETFs comparaison tool.
               </p>
               <br />
 			  <p>
@@ -112,7 +112,7 @@ function ProfilePage() {
                   target="_blank"
                 >
                   Olrhain
-                </a> Founder & CTO. Olrhain provide ETFs realtime checking API grouped by country.
+                </a> Founder & CTO. Olrhain provides ETFs realtime checking API grouped by country.
               </p>
 			  <br />
             </Col>
@@ -123,11 +123,12 @@ function ProfilePage() {
               <Col className="ml-auto mr-auto" md="8">
                 <h2 className="title">My Expertise</h2>
                 <h5 className="description">
-                  I have 6 years as a Java/J2EE Developer certified as OCA8. I master Spring, Angular, React, Databases, JPA
+                  I have 6 years as a Java/J2EE developer enginner certified as OCA8. I master Spring, Angular, React, Databases, JPA
 				  Hibernate, Docker, Kubernetes. I have been highlighted as Arctic Code Vault Contributor by Github 's 2020 year.
                 </h5>
                 <br />
-				<Link  className="btn-round" to="/files/resume.pdf" target="_blank" download>Downalod My resume</Link>
+				<Link  className="btn-round" to="/files/CV_farouk_ben_garssallah_en.pdf" target="_blank" download>Downalod my english resume</Link>
+				<Link  className="btn-round" to="/files/CV_farouk_ben_garssallah_fr.pdf" target="_blank" download>Downalod my french resume</Link>
               </Col>
             </Row>
             <br />
