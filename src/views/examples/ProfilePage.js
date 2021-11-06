@@ -60,7 +60,7 @@ function ProfilePage() {
               <h4 className="title">
                 `Farouk` `BEN GHARSSALLAH` <br />
               </h4>
-              <h6 className="description">Intermediere Java/J2EE Software Enginner</h6><br />
+              <h6 className="description">Intermediere Java/J2EE Software Enginner @ Levio Conseils Inc.</h6><br />
 			   <h6 className="description"></h6>
             </div>
           </div>
@@ -127,14 +127,6 @@ function ProfilePage() {
 				  Hibernate, Docker, Kubernetes. I have been highlighted as Arctic Code Vault Contributor by Github 's 2020 year.
                 </h5>
                 <br />
-				<Row>
-				  <Col className="ml-auto mr-auto" md="6">
-				      <Link  className="btn-round" to="/files/CV_farouk_ben_garssallah_en.pdf" target="_blank" download>Downalod my english resume</Link>
-				  </Col>
-				  <Col className="ml-auto mr-auto" md="6">
-				       <Link  className="btn-round" to="/files/CV_farouk_ben_garssallah_fr.pdf" target="_blank" download>Downalod my french resume</Link>
-                   </Col>
-				</Row>
 			  </Col>
             </Row>
             <br />
