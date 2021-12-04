@@ -108,7 +108,7 @@ function ProfilePage() {
               <br />
 			  <p>
                 <a
-                  href="https://olrhain-dev-alpha.herokuapp.com"
+                  href="https://olrhain-dev-alphaa.herokuapp.com"
                   target="_blank"
                 >
                   Olrhain
