@@ -71,28 +71,23 @@ function ProfilePage() {
               </p>
               <br />
 			   <p>
-                  Quod
-                </a> Founder & CTO. Quod is a plateform which provides data about worldwide stock data.
+                  Quod is a plateform which provides data about worldwide stock data.
               </p>
               <br />
 			    <p>
-                  Kontu
-                </a> Founder & CTO. Kontu is a basic financial account management tool.
+                  Kontu is a basic financial account management tool.
               </p>
               <br />
 			    <p>
-                  Fiscus
-                </a> Founder & CTO. Fiscus is a multi category ETFs comparaison tool.
+                  Fiscus is a multi category ETFs comparaison tool.
               </p>
               <br />
 			  <p>
-                  Vidulum
-                </a> Founder & CTO. Vidulum is an options managment simulation tool.
+                  Vidulum is an options managment simulation tool.
               </p>
               <br />
 			  <p>
-                  Olrhain
-                </a> Founder & CTO. Olrhain provides ETFs realtime checking API grouped by country.
+                  Olrhain provides ETFs realtime checking API grouped by country.
               </p>
 			  <br />
             </Col>
