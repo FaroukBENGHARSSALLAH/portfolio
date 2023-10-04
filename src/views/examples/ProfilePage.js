@@ -61,7 +61,7 @@ function ProfilePage() {
                 `Farouk` `BEN GHARSSALLAH` <br />
               </h4>
               <h6 className="description">Intermediere Java/J2EE Software Enginner @ Levio Conseils Inc.</h6><br />
-			   <h6 className="description"></h6>
+			  <h6 className="description">OCP8 Certified Java Developer</h6>
             </div>
           </div>
           <Row>
@@ -71,46 +71,46 @@ function ProfilePage() {
               </p>
               <br />
 			   <p>
-                <a
+                /*!<a
                   href="https://quod-dev-alpha.herokuapp.com"
                   target="_blank"
-                >
+                >*/
                   Quod
                 </a> Founder & CTO. Quod is a plateform which provides data about worldwide stock data.
               </p>
               <br />
 			    <p>
-                <a
+                /*!<a
                   href="https://kontu-dev-alpha.herokuapp.com"
                   target="_blank"
-                >
+                >*/
                   Kontu
                 </a> Founder & CTO. Kontu is a basic financial account management tool.
               </p>
               <br />
 			    <p>
-                <a
+                /*!<a
                   href="https://fiscus-dev-alpha.herokuapp.com"
                   target="_blank"
-                >
+                >*/
                   Fiscus
                 </a> Founder & CTO. Fiscus is a multi category ETFs comparaison tool.
               </p>
               <br />
 			  <p>
-                <a
+                /*!<a
                   href="https://vidulum-dev-alpha.herokuapp.com"
                   target="_blank"
-                >
+                >*/
                   Vidulum
                 </a> Founder & CTO. Vidulum is an options managment simulation tool.
               </p>
               <br />
 			  <p>
-                <a
+                /*!<a
                   href="https://olrhain-dev-alphaa.herokuapp.com"
                   target="_blank"
-                >
+                >*/
                   Olrhain
                 </a> Founder & CTO. Olrhain provides ETFs realtime checking API grouped by country.
               </p>
@@ -123,8 +123,8 @@ function ProfilePage() {
               <Col className="ml-auto mr-auto" md="8">
                 <h2 className="title">My Expertise</h2>
                 <h5 className="description">
-                  I have 6 years as a Java/J2EE developer enginner certified as OCA8. I master Spring, Angular, React, Databases, JPA
-				  Hibernate, Docker, Kubernetes. I have been highlighted as Arctic Code Vault Contributor by Github 's 2020 year.
+                  I have 6 years as a Java/J2EE developer enginner certified as OCP8. I master Spring, Angular, React, Databases, JPA
+				  Hibernate, Docker, Kubernetes.
                 </h5>
                 <br />
 			  </Col>

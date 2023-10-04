@@ -72,7 +72,7 @@ function ExamplesNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            to="/"
+            to="/portfolio"
             target="_blank"
             title="'Farouk' 'BEN GHARSSALLAH'"
             tag={Link}
