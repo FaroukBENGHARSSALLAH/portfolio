@@ -71,46 +71,26 @@ function ProfilePage() {
               </p>
               <br />
 			   <p>
-                /*!<a
-                  href="https://quod-dev-alpha.herokuapp.com"
-                  target="_blank"
-                >*/
                   Quod
                 </a> Founder & CTO. Quod is a plateform which provides data about worldwide stock data.
               </p>
               <br />
 			    <p>
-                /*!<a
-                  href="https://kontu-dev-alpha.herokuapp.com"
-                  target="_blank"
-                >*/
                   Kontu
                 </a> Founder & CTO. Kontu is a basic financial account management tool.
               </p>
               <br />
 			    <p>
-                /*!<a
-                  href="https://fiscus-dev-alpha.herokuapp.com"
-                  target="_blank"
-                >*/
                   Fiscus
                 </a> Founder & CTO. Fiscus is a multi category ETFs comparaison tool.
               </p>
               <br />
 			  <p>
-                /*!<a
-                  href="https://vidulum-dev-alpha.herokuapp.com"
-                  target="_blank"
-                >*/
                   Vidulum
                 </a> Founder & CTO. Vidulum is an options managment simulation tool.
               </p>
               <br />
 			  <p>
-                /*!<a
-                  href="https://olrhain-dev-alphaa.herokuapp.com"
-                  target="_blank"
-                >*/
                   Olrhain
                 </a> Founder & CTO. Olrhain provides ETFs realtime checking API grouped by country.
               </p>

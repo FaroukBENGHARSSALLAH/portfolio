@@ -73,7 +73,6 @@ function ExamplesNavbar() {
           <NavbarBrand
             data-placement="bottom"
             to="/portfolio"
-            target="_blank"
             title="'Farouk' 'BEN GHARSSALLAH'"
             tag={Link}
           >
