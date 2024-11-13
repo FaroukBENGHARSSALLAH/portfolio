@@ -60,7 +60,7 @@ function ProfilePage() {
               <h4 className="title">
                 `Farouk` `BEN GHARSSALLAH` <br />
               </h4>
-              <h6 className="description">Intermediere Java/J2EE Software Enginner @ Levio Conseils Inc.</h6><br />
+              <h6 className="description">Intermediere Java/J2EE Software Enginner @ Cofomo Developpement Inc.</h6><br />
 			  <h6 className="description">OCP8 Certified Java Developer</h6>
             </div>
           </div>
@@ -71,12 +71,17 @@ function ProfilePage() {
               </p>
               <br />
 			   <p>
-                  Quod is a plateform which provides data about worldwide stock data.
+                  <Button className="btn-link" color="info" target="_blank" href="https://quod.onrender.com"  >
+                      Quod
+                    </Button> is a plateform which provides data about worldwide stock data.
               </p>
               <br />
 			    <p>
-                  Kontu is a basic financial account management tool.
+                  <Button className="btn-link" color="info" target="_blank" href="https://kontu.onrender.com"  >
+                      Kontu
+                    </Button> is a basic financial account management tool.
               </p>
+			  /*
               <br />
 			    <p>
                   Fiscus is a multi category ETFs comparaison tool.
@@ -88,7 +93,7 @@ function ProfilePage() {
               <br />
 			  <p>
                   Olrhain provides ETFs realtime checking API grouped by country.
-              </p>
+              </p>  */
 			  <br />
             </Col>
           </Row>
