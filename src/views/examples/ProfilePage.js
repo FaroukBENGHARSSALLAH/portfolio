@@ -25,6 +25,7 @@ import { Link } from "react-router-dom";
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import Header from "components/Headers/Header.js";
 import Footer from "components/Footers/Footer.js";
+import * as fileSaver from 'file-saver';
 
 function ProfilePage() {
   const [activeTab, setActiveTab] = React.useState("1");
@@ -33,6 +34,13 @@ function ProfilePage() {
     if (activeTab !== tab) {
       setActiveTab(tab);
     }
+  };
+  
+  const saveManual = (fileName: string) => {
+	fileSaver.saveAs(
+	  process.env.API_URL + 'apple-icon.png',
+	  'apple-icon.png'
+	);
   };
 
   document.documentElement.classList.remove("nav-open");
@@ -53,15 +61,17 @@ function ProfilePage() {
               <img
                 alt="..." style={{ width: "60%" }} 
                 className="img-circle img-no-padding img-responsive"
-                src={require("assets/img/faces/photo.jpg")}
+                src={require("assets/img/faces/profil.jpg")}
               />
             </div>
             <div className="name">
               <h4 className="title">
                 `Farouk` `BEN GHARSSALLAH` <br />
               </h4>
-              <h6 className="description">Intermediere Java/J2EE Software Enginner @ Cofomo Developpement Inc.</h6><br />
+              <h6 className="description">Senior Java/J2EE Software Enginner @ CGI.</h6><br />
 			  <h6 className="description">OCP8 Certified Java Developer</h6>
+			  <h6 className="description">Phone : +1 514 245 2902</h6>
+			  <h6 className="description">Email : farouk.bengarssallah@gmail.com</h6>
             </div>
           </div>
           <Row>
@@ -81,29 +91,33 @@ function ProfilePage() {
                       Kontu
                     </Button> is a basic financial account management tool.
               </p>
-			  /*
-              <br />
-			    <p>
-                  Fiscus is a multi category ETFs comparaison tool.
-              </p>
-              <br />
-			  <p>
-                  Vidulum is an options managment simulation tool.
-              </p>
-              <br />
-			  <p>
-                  Olrhain provides ETFs realtime checking API grouped by country.
-              </p>  */
+			 
 			  <br />
             </Col>
           </Row>
+		  <Row>
+		{ /*    <Col className="ml-auto mr-auto text-center" md="8">
+              <p>
+                These are my resume
+              </p>
+              <br />
+			   <p>
+                    <Link href="https://drive.google.com/file/d/1MuzTkjP7Exk-0lej-o_aE-3dkhcZAuLX/view?usp=drive_link" target="_blank" download>French resume</Link>					
+              </p>
+              <br />
+			    <p>
+                    <Link to={() => saveManual('CV_farouk_ben_garssallah_fr.docx')}  download>English resume</Link>		
+					<Button onClick={() => saveManual('CV_farouk_ben_garssallah_fr.docx')}  download>English resume</Button>	
+              </p>
+		</Col>	 */}
+		  </Row>
 		    <div className="section text-center">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
                 <h2 className="title">My Expertise</h2>
                 <h5 className="description">
-                  I have 6 years as a Java/J2EE developer enginner certified as OCP8. I master Spring, Angular, React, Databases, JPA
+                  I have 8 years as a Java/J2EE developer enginner certified as OCP8. I master Spring, Angular, React, Databases, JPA
 				  Hibernate, Docker, Kubernetes.
                 </h5>
                 <br />
